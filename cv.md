@@ -10,3 +10,11 @@ I'm just starting my journey in web development, and I hope that by the end of t
 * My strengths:
     * Rapid skill acquisition
     * Curiosity in delving into tasks down to the smallest details
+---
+#### Skills
+* HTML
+* CSS (SASS/SCSS, BEM)
+* Basic JavaScript
+* Git/GitHub
+* Photoshop, Figma
+---
