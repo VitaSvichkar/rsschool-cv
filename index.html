@@ -5,6 +5,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 
@@ -28,7 +37,7 @@
 
       <!--skills-->
       <aside>
-        <h2>Skills</h2>
+        <h2 id="skills">Skills</h2>
         <ul>
           <li>JavaScript</li>
           <li>CSS, SCSS</li>
@@ -68,12 +77,14 @@
 
       <!--header-->
       <header>
-        <nav>
-          <li>Education</li>
-          <li>Experience</li>
-          <li>Skills</li>
-          <li>Work examples</li>
-          <li>About us</li>
+        <nav class="nav">
+          <ul>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#code">Code example</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#example">Work example</a></li>
+            <li><a href="#about">About me</a></li>
+          </ul>
         </nav>
       </header>
 
@@ -85,7 +96,7 @@
 
         <!--education-->
         <aside>
-          <h2>Education</h2>
+          <h2 id="education">Education</h2>
           <div>
             <div>
               <strong>2014-2019 National Technical University «Kharkiv Polytechnic Institute»</strong>
@@ -106,7 +117,7 @@
 
         <!--code example-->
         <aside>
-          <h2>Code example</h2>
+          <h2 id="code">Code example</h2>
           <pre><code>
             function generateOdds(len) {
             const arr = Array.from({ length: len }, (_, index) => 2 * index + 1);
@@ -118,7 +129,7 @@
 
         <!--work example-->
         <aside>
-          <h2>Work example</h2>
+          <h2 id="example">Work example</h2>
           <p>Creating a web page using HTML, CSS, and JavaScript.<br>
             Developing the interface, integrating interactive elements, and participating in cross-check reviews.</p>
           <iframe src="https://rolling-scopes-school.github.io/vitasvichkar-JSFE2023Q4/coffee-house/index.html">
@@ -127,7 +138,7 @@
 
         <!--about me-->
         <aside>
-          <h2>About me</h2>
+          <h2 id="about">About me</h2>
           <p>Hi! I recently completed a free web development course at RS School, where everything depended solely on my
             self-organization and motivation. I learned discipline, responsibility for my projects, and effective time
             management. I enjoy finding solutions to complex and interesting tasks, delving into the smallest details.
