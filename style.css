@@ -9,27 +9,41 @@
 body {
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 16px;
+  color: #323232;
   /* padding: 10px; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  font-size: 28px;
+  padding-bottom: 20px;
 }
 
 .wrap {
   width: 1200px;
   /* padding: 0 50px; */
   /* background-color: lightgreen; */
-  background-color: #fafbff;
+  /* background-color: #fafbff; */
   /* border: 1px solid gray; */
   margin: 0 auto;
   display: flex;
   gap: 50px;
 }
 
+/*section right*/
+
+/*nav*/
+
 .nav ul {
-  list-style-type: none;
   display: flex;
   gap: 20px;
-
   justify-content: center;
   /* background-color: #fff; */
   /* border: 1px solid black; */
@@ -53,35 +67,47 @@ body {
   gap: 50px;
 }
 
-ul {
-  list-style-type: none;
-}
-
-h1 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 400;
-  font-size: 3rem;
-}
-h2 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 550;
-  font-size: 26px;
-  padding-bottom: 10px;
-}
-
 main {
   display: flex;
   flex-direction: column;
   gap: 35px;
 }
 
+/*header*/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
 .name {
   margin-bottom: 50px;
-  background-color: #fafbff;
+  /* background-color: #fafbff; */
   border-bottom: 1px solid #c2c2c2;
   /* background-color: red; */
 }
 .name p {
   font-size: 35px;
   font-weight: 300;
+}
+
+/*education*/
+
+.course {
+  border-top: 1px solid #c2c2c2;
+  /* border: 1px solid black; */
+  display: flex;
+  padding: 20px 0;
+  /* margin-bottom: 20px; */
+
+  /* justify-content: space-between; */
+}
+.course div {
+  width: 50%;
+}
+
+.code {
+  color: #ffffff;
+  background-color: rgba(32, 21, 21, 0.895);
 }
