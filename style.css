@@ -1,0 +1,173 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #323232;
+  /* padding: 10px; */
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: rgba(176, 14, 14, 0.748);
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 550;
+  font-size: 28px;
+  padding-bottom: 15px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.wrap {
+  display: flex;
+  gap: 50px;
+}
+
+/*section left*/
+
+.section_left {
+  border-right: 1px solid #c2c2c2;
+  padding-right: 30px;
+}
+
+.section_left article {
+  padding-top: 40px;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.image {
+  margin-bottom: 20px;
+  border-radius: 50%;
+  border: 1px solid #c2c2c2;
+  overflow: hidden;
+  background-color: red;
+}
+
+.image img {
+  width: 350px;
+  height: 350px;
+  display: block;
+}
+
+.contact_list li,
+.skills li,
+.languages li {
+  padding-bottom: 10px;
+}
+
+/*section right*/
+
+/*nav*/
+
+.nav ul {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.nav a {
+  padding: 10px;
+}
+
+.section_right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/*header*/
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 3rem;
+}
+
+.name {
+  margin-bottom: 50px;
+  border-bottom: 1px solid #c2c2c2;
+}
+
+.name p {
+  font-size: 35px;
+  font-weight: 300;
+}
+
+/*education*/
+
+.course {
+  border-top: 1px solid #c2c2c2;
+  display: flex;
+  padding: 20px 0;
+}
+
+.course div {
+  width: 50%;
+  margin-right: 20px;
+}
+
+/*code*/
+
+.code {
+  color: #ffffff;
+  background-color: rgba(32, 21, 21, 0.895);
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
+}
+
+/*work example*/
+
+.description {
+  border-top: 1px solid #c2c2c2;
+  padding: 20px 0;
+}
+
+iframe {
+  margin-top: 15px;
+  border: 1px solid #c2c2c2;
+  border-radius: 20px;
+}
+
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  border-top: 1px solid #c2c2c2;
+}
+
+/*hover*/
+
+a:hover {
+  color: #ff0000dd;
+}
