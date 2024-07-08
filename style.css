@@ -47,8 +47,14 @@ h2 {
 
 /*section left*/
 
+.section_left {
+  border-right: 1px solid #c2c2c2;
+  padding-right: 30px;
+}
+
 .section_left article {
   padding-top: 40px;
+  border-bottom: 1px solid #c2c2c2;
 }
 
 .image {
@@ -56,9 +62,12 @@ h2 {
   border-radius: 50%;
   border: 1px solid #c2c2c2;
   overflow: hidden;
+  background-color: red;
 }
 
 .image img {
+  width: 350px;
+  height: 350px;
   display: block;
 }
 
