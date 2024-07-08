@@ -29,10 +29,22 @@ a {
   /* background-color: red; */
 }
 
-.contact_list li {
+.contact_list li,
+.skills li,
+.languages li {
   /* border: 1px solid black; */
   padding-bottom: 10px;
   /* padding: 0; */
+}
+#skills,
+.languages h2,
+.languages ~ article {
+  padding-top: 40px;
+  /* background-color: red; */
+}
+
+.skills {
+  /* background-color: red; */
 }
 
 h2 {
