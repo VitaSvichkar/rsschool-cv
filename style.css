@@ -25,34 +25,13 @@ a {
   color: rgba(240, 3, 3, 0.748);
 }
 
-.contact_list {
-  /* background-color: red; */
-}
-
-.contact_list li,
-.skills li,
-.languages li {
-  /* border: 1px solid black; */
-  padding-bottom: 10px;
-  /* padding: 0; */
-}
-#skills,
-.languages h2,
-.languages ~ article {
-  padding-top: 40px;
-  /* background-color: red; */
-}
-
-.skills {
-  /* background-color: red; */
-}
-
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 550;
   font-size: 28px;
   padding-bottom: 15px;
 }
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -66,23 +45,30 @@ h2 {
 }
 
 /*section left*/
-.section_left {
-  /* width: 80%; */
-}
 
 .image {
   margin-bottom: 20px;
   border-radius: 50%;
-  /* width: 400px; */
-  /* background-color: red; */
   border: 1px solid #c2c2c2;
-
   overflow: hidden;
 }
 .image img {
   display: block;
-  /* min-width: 100%; */
 }
+
+.contact_list li,
+.skills li,
+.languages li {
+  padding-bottom: 10px;
+}
+
+#skills,
+.languages h2,
+.languages ~ article {
+  padding-top: 40px;
+}
+
+/*section right*/
 
 /*nav*/
 
@@ -90,24 +76,16 @@ h2 {
   display: flex;
   gap: 20px;
   justify-content: center;
-  /* background-color: #fff; */
-  /* border: 1px solid black; */
 }
 
-.nav ul li {
-  /* padding: 10px; */
-  /* border: 1px solid red; */
-}
 .nav a {
   display: block;
   padding: 10px;
-  /* background-color: yellow; */
 }
 
 .section_right {
   display: flex;
   flex-direction: column;
-  /* padding-left: 40px; */
   gap: 50px;
 }
 
@@ -127,9 +105,7 @@ h1 {
 
 .name {
   margin-bottom: 50px;
-  /* background-color: #fafbff; */
   border-bottom: 1px solid #c2c2c2;
-  /* background-color: red; */
 }
 
 .name p {
@@ -141,12 +117,8 @@ h1 {
 
 .course {
   border-top: 1px solid #c2c2c2;
-  /* border: 1px solid black; */
   display: flex;
   padding: 20px 0;
-  /* margin-bottom: 20px; */
-
-  /* justify-content: space-between; */
 }
 
 .course div {
@@ -181,6 +153,5 @@ iframe {
   justify-content: center;
   gap: 50px;
   padding: 30px;
-  /* background-color: red; */
   border-top: 1px solid #c2c2c2;
 }
