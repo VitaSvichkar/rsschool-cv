@@ -120,3 +120,19 @@ h1 {
   border-top: 1px solid #c2c2c2;
   padding: 20px 0;
 }
+
+iframe {
+  margin-top: 15px;
+  border: 1px solid #c2c2c2;
+  border-radius: 20px;
+}
+/*footer*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 30px;
+  /* background-color: red; */
+  border-top: 1px solid #c2c2c2;
+}
