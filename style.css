@@ -8,7 +8,6 @@
 
 body {
   display: flex;
-  background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -40,6 +39,7 @@ h2 {
   margin: 0 auto;
   padding: 10px;
 }
+
 .wrap {
   display: flex;
   gap: 50px;
@@ -47,12 +47,17 @@ h2 {
 
 /*section left*/
 
+.section_left article {
+  padding-top: 40px;
+}
+
 .image {
   margin-bottom: 20px;
   border-radius: 50%;
   border: 1px solid #c2c2c2;
   overflow: hidden;
 }
+
 .image img {
   display: block;
 }
@@ -61,12 +66,6 @@ h2 {
 .skills li,
 .languages li {
   padding-bottom: 10px;
-}
-
-#skills,
-.languages h2,
-.languages ~ article {
-  padding-top: 40px;
 }
 
 /*section right*/
@@ -80,7 +79,6 @@ h2 {
 }
 
 .nav a {
-  /* display: block; */
   padding: 10px;
 }
 
@@ -132,6 +130,8 @@ h1 {
 .code {
   color: #ffffff;
   background-color: rgba(32, 21, 21, 0.895);
+  border: 1px solid #c2c2c2;
+  border-radius: 10px;
 }
 
 /*work example*/
@@ -161,8 +161,4 @@ iframe {
 
 a:hover {
   color: #ff0000dd;
-  font-weight: 600;
-  /* background-color: rgba(94, 71, 71, 0.822); */
-  /* border-bottom: 2px solid #322c2cbe; */
-  /* border-radius: 50%; */
 }
