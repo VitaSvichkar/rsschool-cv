@@ -23,16 +23,16 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 550;
   font-size: 28px;
-  padding-bottom: 20px;
+  padding-bottom: 15px;
 }
-
-.wrap {
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
   width: 1200px;
-  /* padding: 0 50px; */
-  /* background-color: lightgreen; */
-  /* background-color: #fafbff; */
-  /* border: 1px solid gray; */
   margin: 0 auto;
+}
+.wrap {
   display: flex;
   gap: 50px;
 }
@@ -70,7 +70,7 @@ h2 {
 main {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 40px;
 }
 
 /*header*/
@@ -107,7 +107,16 @@ h1 {
   width: 50%;
 }
 
+/*code*/
+
 .code {
   color: #ffffff;
   background-color: rgba(32, 21, 21, 0.895);
+}
+
+/*work example*/
+
+.description {
+  border-top: 1px solid #c2c2c2;
+  padding: 20px 0;
 }
