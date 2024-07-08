@@ -22,7 +22,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: rgba(240, 3, 3, 0.748);
+  color: rgba(176, 14, 14, 0.748);
 }
 
 h2 {
@@ -38,6 +38,7 @@ h2 {
   gap: 50px;
   width: 1200px;
   margin: 0 auto;
+  padding: 10px;
 }
 .wrap {
   display: flex;
@@ -79,7 +80,7 @@ h2 {
 }
 
 .nav a {
-  display: block;
+  /* display: block; */
   padding: 10px;
 }
 
@@ -154,4 +155,14 @@ iframe {
   gap: 50px;
   padding: 30px;
   border-top: 1px solid #c2c2c2;
+}
+
+/*hover*/
+
+a:hover {
+  color: #ff0000dd;
+  font-weight: 600;
+  /* background-color: rgba(94, 71, 71, 0.822); */
+  /* border-bottom: 2px solid #322c2cbe; */
+  /* border-radius: 50%; */
 }
