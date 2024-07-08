@@ -97,7 +97,7 @@ h2 {
   gap: 50px;
 }
 
-main {
+.main {
   display: flex;
   flex-direction: column;
   gap: 40px;
